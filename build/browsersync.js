@@ -2,7 +2,7 @@ const browserSync  = require('browser-sync').create();
 const cp           = require('child_process');
 
 
-const scssPath     = '_assets/css/*.scss';
+const scssPath     = '_assets/css/*/**';
 const imgPath      = '_assets/img/**/*.+(png|jpg|gif|svg)';
 const jsPath       = '_assets/js/*.js';
 const pugPath      = '_pugfiles/*.pug';
